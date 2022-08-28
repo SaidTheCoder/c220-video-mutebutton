@@ -109,7 +109,7 @@ $(function () {
         else{
             myStream.getAudioTracks()[0].enabled=true
             html=`<i class="fas fa-video"></i>`
-            $("#stop_video").toggleClass("background_blue")
+            $("#stop_video").toggleClass("background_red")
             $("#stop_video").html(html)
         }
     })
